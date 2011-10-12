@@ -1,0 +1,32 @@
+Ingenieursproject: De Stappenteller
+-----------------------------------
+
+Het is de eerste maal dat we dit project organiseren, er kunnen zich
+dus wel ergens wat nukken en mankementen voordoen, maar die proberen
+we zo snel en efficient mogelijk op te lossen. Een methode die we 
+daarvoor aanwenden is de home directory op je Ubuntu Live DVD aan te
+passen zodat ze als git [1,2,3] repository kan dienen.
+
+De HOME directory
+=================
+
+Als je de machine boot vanaf de DVD, dan wordt je normaliter ingelogd als de
+gebruiker 'ubuntu'. Bij het inloggen wordt er automatisch gekeken als er
+eventueel updates beschikbaar zijn en worden die gedownload. Het is dus wel
+belangrijk dat je toegang hebt tot het internet.
+
+
+Eclipse
+=======
+
+TODO: uitleg.
+
+
+
+
+
+
+
+[1] http://git-scm.com
+[2] http://en.wikipedia.org/wiki/Git_(software)
+[3] http://progit.org/
