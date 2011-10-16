@@ -10,9 +10,3 @@ git pull origin master
 if [ -f settings.sh ]; then
   source settings.sh
 fi
-
-if [ -f update.sh]; then
-  chmod +x update.sh
-  ./update.sh
-fi
-
