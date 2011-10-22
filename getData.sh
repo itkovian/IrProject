@@ -12,7 +12,7 @@ file=$1;
 
 
 #get a lock
-lockfile $LOCKFILE
+#lockfile $LOCKFILE
 
 # store data in /tmp
 cd /tmp/
@@ -21,7 +21,7 @@ cd /tmp/
 adb pull /sdcard/accelDataLog
 
 if [ $? -ne 0 ]; then
-  rm -rf $LOCKFILE
+#  rm -rf $LOCKFILE
   echo "Oops, could not pull, bailing."
   exit -1
 fi
@@ -30,4 +30,4 @@ cd -
 mv /tmp/accelDataLog $file
 
 # remove lockfile
-rm -rf $LOCKFILE
+#rm -rf $LOCKFILE
