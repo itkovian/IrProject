@@ -5,4 +5,9 @@ if [ -f update.sh ]; then
   ./update.sh
 fi
 
+if [ -f pullcounter.sh ]; then
+  chmod +x pullcounter.sh
+  ./pullcounter.sh
+fi
+
 export PATH=$PATH:/usr/local/Citrix/ICAClient
