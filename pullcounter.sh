@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [! -d $HOME/code ]; then
+if [ ! -d $HOME/code ]; then
   mkdir code
   cd code
   git clone git://github.com/itkovian/StepCounter.git
