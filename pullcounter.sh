@@ -1,7 +1,10 @@
 #!/bin/bash
 
-mkdir code
-cd code
-git clone git://github.com/itkovian/StepCounter.git
-git checkout labo3
-cd -
+if [! -d $HOME/code ]; then
+  mkdir code
+  cd code
+  git clone git://github.com/itkovian/StepCounter.git
+  cd StepCounter
+  git checkout labo3
+  cd -
+fi;
