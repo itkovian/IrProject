@@ -7,6 +7,7 @@ if [ ! -d $HOME/code ]; then
   cd StepCounter
   git checkout labo3
   git checkout labo4
+  git checkout labo6
   git checkout labo3
   cd -
 fi;
